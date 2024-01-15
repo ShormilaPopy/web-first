@@ -1,0 +1,41 @@
+
+
+  .blog{
+    border: 1px solid rgb(230, 146, 21);
+    border-radius: 20px;
+    margin: 2px;
+    width:30%;
+    display:inline-block;
+  }
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+  p{
+    text-align: justify;
+  }
+  img{
+    height: 300px;
+    width:250px;
+  }
+  h1:hover{
+    color: brown;
+  }
+  h2:hover{
+    color: tomato;
+  }
+  h3:hover{
+    color: blue;
+    font-size: 60px;
+    background-color: chartreuse;
+  }
+  input:focus{
+    font-weight: 400;
+    font-size: 20px;
+    color: blue;
+  }

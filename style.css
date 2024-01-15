@@ -1,0 +1,60 @@
+h1::before{
+    content:"Hi";
+    color: darkgoldenrod;
+    font-size: 20px;
+    background-color: darkmagenta;
+  }
+
+  .special-effect::after{
+    content: " Bye";
+    font-size: 10px;
+    background-color: crimson;
+  }
+.blog{
+    border: 10px solid purple;
+    border-radius: 20px;
+    margin: 2px;
+    width:30%;
+    display:inline-block;
+  }
+ 
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+  p{
+    text-align: justify;
+  }
+  img{
+    height: 300px;
+    width:250px;
+  } .blog{
+    border: 10px solid purple;
+    border-radius: 20px;
+    margin: 2px;
+    width:30%;
+    display:inline-block;
+  }
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+  p{
+    text-align: justify;
+  }
+  img{
+    height: 300px;
+    width:250px;
+  }
+ 
+  

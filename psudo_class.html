@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::before{
+            content:"Hello";
+            color: brown;
+            font-size: 15px;
+            background-color: blue;
+        } 
+        .special-effect::after{
+            content: " Bye";
+            color: brown;
+            font-size: 15PX;
+            background-color: chocolate;
+        }
+
+        h1{
+            color: goldenrod;
+        }
+        .special-effect:hover{
+            color:blue;
+            font-size: 60px;
+            background-color: crimson;
+        }
+        input:focus{
+            font-weight: 700;
+            font-size: 20px;
+            color: brown;
+        }
+        li:nth-child(2n){
+            background-color: indianred;
+            color: darkmagenta;
+        }
+
+        body{
+            counter-reset: section;
+        }
+        p::before{
+            counter-increment: section;
+            content: "crush" counter(section) ": "; 
+        }
+    </style>
+</head>
+<body>
+    <h1> psudo. podo.</h1>
+    <h1 class="special-effect"> psodo gumai.</h1>
+    <h1> psudo khai</h1>
+    <input name="emile" type="text">
+    <br>
+    <input name="paseword" type="text">
+    <br>
+    <a href="www.shormilapopy.com">visty my facebook page.</a>
+    <a href="www.youtube.com">youtube</a>
+    <ul>
+    <p>Jaifa Moni</p>
+    <p>Sabiha Jaifa</p>
+    <p>Nokib uddin</p>
+    <p>Nihan Sona</p>
+    <p>Shormila Popy</p>
+    <p>Borhan Uddin</p>
+    </ul>
+
+</body>
+</html>
